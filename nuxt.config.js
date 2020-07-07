@@ -2,11 +2,6 @@ module.exports = {
   /*
   ** Headers of the page
   */
- modules: [
-   '@nuxtjs/axios',
-   '@nuxtjs/dotenv',
-   '@nuxtjs/bulma',
- ],
   head: {
     title: 'pwa-app',
     meta: [
@@ -18,6 +13,12 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  modules: [
+    '@nuxtjs/axios',
+    '@nuxtjs/dotenv',
+    '@nuxtjs/bulma',
+    '@nuxtjs/pwa'
+],
   /*
   ** Customize the progress bar color
   */
