@@ -2,6 +2,11 @@ module.exports = {
   /*
   ** Headers of the page
   */
+ modules: [
+   '@nuxtjs/axios',
+   '@nuxtjs/dotenv',
+   '@nuxtjs/bulma',
+ ],
   head: {
     title: 'pwa-app',
     meta: [
